@@ -1,18 +1,15 @@
-body
-{
+body {
     font-family: Poppins, sans-serif;
     color: #FFF;
     background-color: #0E0E0E;
 }
 
-a
-{
+a {
     text-decoration: none;
 }
 
 ul,
-ol
-{
+ol {
     list-style: none;
     padding-left: 0;
     margin-top: 0;
@@ -23,21 +20,21 @@ h1,
 h2,
 h3,
 h4,
-h5, 
+h5,
 h6,
-p{
-margin: 0;
+p {
+    margin: 0;
 }
 
-img{
+img {
     display: block;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-.container{
+.container {
     max-width: 1200px;
     padding: 0 15px;
     margin-left: auto;
@@ -47,12 +44,12 @@ button{
 
 /* =============HEADER============ */
 
-.header{
+.header {
     background: #202020;
 
 }
 
-.header-logo{
+.header-logo {
     color: #FFF;
     font-family: Inter, sans-serif;
     font-size: 24px;
@@ -62,7 +59,7 @@ button{
     align-items: center;
 }
 
-.header-list-link{
+.header-list-link {
     color: #FFF;
     font-size: 16px;
     line-height: normal;
@@ -73,7 +70,7 @@ button{
 }
 
 
-.header-button{
+.header-button {
     border-radius: 5px;
     background: #FFEB38;
     min-width: 128px;
@@ -84,15 +81,81 @@ button{
     border: none;
 
 }
-.header-list{
+
+.header-list {
     display: flex;
     gap: 40px;
 }
 
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 /* .header-list-item:not(:last-child){
     margin-right:40px */
+
+
+/* Hero section */
+.hero-section {
+    padding-top: 187px;
+    padding-bottom: 190px;
+}
+
+.hero-subtitle {
+    color: #FFF;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 0.03em;
+    margin-bottom: 14px;
+}
+
+.hero-subtitle-part {
+    color: #FFEB38;
+    font-weight: 700;
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 70px;
+    line-height: 1.29;
+    letter-spacing: 0.03em;
+    max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 22px;
+}
+
+.hero-text {
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 0.03em;
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.hero-list {
+    display: flex;
+    gap: 19px;
+    justify-content: center;
+}
+
+.hero-button {
+    color: #202020;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    background-color: #FFF;
+    border-radius: 5px;
+    min-width: 181px;
+    height: 48px;
+    border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #FFEB38;
+}
