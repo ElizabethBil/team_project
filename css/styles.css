@@ -92,6 +92,8 @@ button {
 /* .header-list-item:not(:last-child){
     margin-right:40px */
 
+
+
 /* Hero section */
 .hero-section {
   padding-top: 187px;
@@ -154,6 +156,8 @@ button {
 .hero-button:focus {
   background-color: #ffeb38;
 }
+
+
 /* About Section */
 .about-section{
     padding-top: 112px;
@@ -203,3 +207,36 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+
+/* About Section */
+
+.services-section{
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+
+/* About Section */
+
+.services-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+
+/* About Section */
+
+.services-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+/* About Section */
+
+.services-section {
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+
+
