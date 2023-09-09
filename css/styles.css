@@ -98,6 +98,13 @@ button {
 .hero-section {
   padding-top: 187px;
   padding-bottom: 190px;
+  background-image: linear-gradient(180deg, rgba(14, 14, 14, 0.85) 99.73%, rgba(14, 14, 14, 0.85) 99.74%), url(../images/hero-bgd.jpg); 
+  background-size: cover;
+  background-color: #0E0E0E;
+  max-width: 1440px;
+  background-position: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
 .hero-subtitle {
@@ -172,7 +179,19 @@ button {
   line-height: 1.5;
   letter-spacing: 0.03em;
   margin-bottom: 19px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
+
+.about-subtitle::before {
+  content: "";
+  display: block;
+  width: 143px;
+    height: 2px;
+    background: #D8D8D8;
+}
+
 .about-title {
   color: #fff;
   font-size: 48px;
@@ -206,6 +225,16 @@ button {
 .about-container{
     display: flex;
     justify-content: space-between;
+}
+
+.about-list {
+  position: relative;
+}
+
+.about-second-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 
